@@ -102,7 +102,7 @@ const Header = () => {
             />
           ) : (
             <img
-              src="./src/Images/menu.svg"
+              src={menu}
               alt="img"
               className="w-[31px] h-[18px]"
               onClick={() => showMenu()}

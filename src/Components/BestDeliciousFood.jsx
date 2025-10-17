@@ -2,11 +2,19 @@ import React from "react";
 import img from "../Images/img.jpg";
 import image from "../Images/Image.svg";
 import signature from "../Images/signature.svg";
+import leaves from "../Images/leaves.svg";
+console.log(leaves);
+
 const BestDeliciousFood = () => {
   return (
     <div className="">
       <div className=" justify-between grid grid-cols-12 max-lg:grid-cols-2 max-lg:gap-[0px] max-w-[1490px] gap-[74px] w-[100%] mx-auto">
-        <div className="col-span-5 max-lg:col-span-12 relative after:content-[' '] relative after:absolute after:w-[188px] after:h-[540px] after:top-[-100px] after:left-[0px] after:bg-[url({leaves})] after:z-[-1] max-[437px]:after:h-[340px]">
+        <div
+          className="col-span-5 max-lg:col-span-12 relative after:content-[' '] relative after:absolute after:w-[188px] after:h-[540px] after:top-[-100px] after:left-[0px] after:bg-[image:var(--leaves)] after:z-[-1] max-[437px]:after:h-[340px]"
+          style={{
+            "--leaves": `url(${leaves})`,
+          }}
+        >
           <img src={img} alt="img" className=" w-[100%]  h-[100%] " />
           <div className="w-fit h-fit p-[45px] max-sm:p-[20px] bg-[#FFC222] absolute bottom-0 right-0 bg-[url(./src/Images/bgimg.png)] ]">
             <p className="max-w-[224.3715362548828px] w-[100%] font-[Oswald] font-[700] text-[28px] text-[#212121px]">
