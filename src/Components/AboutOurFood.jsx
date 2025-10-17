@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import icon1 from "../Images/icon1.svg";
-import icon from "../Images/icon1.png";
+import icon1 from "../Images/Icon1.svg";
+import icon from "../Images/Icon1.png";
 import bgimg from "../Images/bgimg.jpg";
 
 const AboutOurFood = () => {
