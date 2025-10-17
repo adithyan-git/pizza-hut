@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import banner from "../Images/banner.jpg";
-import icon from "../Images/icon.svg";
+import icon from "../Images/Icon.svg";
 import arrow from "../Images/arrow.png";
 import bannerdiscount from "../Images/bannerdiscount.svg";
 
