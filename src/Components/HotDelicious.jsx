@@ -12,12 +12,16 @@ import lefttomato from "../Images/lefttomato.svg";
 import bg1 from "../Images/bg1.png";
 import icon2 from "../Images/icon2.svg";
 import bg3 from "../Images/bg3.png";
+import bgimage from "../Images/bgimage.png";
+
 import fiftypercentoff from "../Images/50percent-off2.svg";
 import bg4 from "../Images/bg4.png";
 import frenchfry2 from "../Images/french-fry2.svg";
 import bg5 from "../Images/bg5.png";
 import chickentext from "../Images/chickentext.svg";
 import chickenfrench from "../Images/chicken-french.svg";
+import chilli from "../Images/chilli.svg";
+
 const HotDelicious = () => {
   const dummyFod = [
     {
@@ -54,7 +58,12 @@ const HotDelicious = () => {
       <section>
         <div className="pt-[120px]">
           <div className=" w-full px-[20px]">
-            <div className="bg-[url(./src/Images/hotdelicious.png)] max-w-[1290px] mx-auto  w-[100%] h-fit pt-[114px] px-[53px] pb-[119.99px] bg-[url('./src/Images/bg.png)] max-[426px]:px-[10px]">
+            <div
+              className="bg-[image:var(--hotdelicious)] max-w-[1290px] mx-auto  w-[100%] h-fit pt-[114px] px-[53px] pb-[119.99px] bg-[url('./src/Images/bg.png)] max-[426px]:px-[10px]"
+              style={{
+                "--hotdelicious": `url(${hotdelicious})`,
+              }}
+            >
               <div className="flex flex-col items-center">
                 <p className="font-[Oswald] font-[700] text-[17px]  mb-[4.9px] text-[#00A149]">
                   About Our Food
@@ -125,7 +134,13 @@ const HotDelicious = () => {
         </div>
       </section>
       <section>
-        <div className="bg-[#EF294C] px-[20px] w-full before:content-[''] before:absolute relative before:w-[108px] before:h-[198px] before:bg-[url(./src/Images/tomato.svg)] before:bottom-0 before:left-0 after:content-[''] after:absolute after:w-[90px] after:h-[83px] after:bg-[url(./src/Images/chilli.svg)] after:top-[121.91px] after:right-0 ">
+        <div
+          className="bg-[#EF294C] px-[20px] w-full before:content-[''] before:absolute relative before:w-[108px] before:h-[198px] before:bg-[image:var(--tomato)] before:bottom-0 before:left-0 after:content-[''] after:absolute after:w-[90px] after:h-[83px] after:bg-[image:var(--chilli)] after:top-[121.91px] after:right-0 "
+          style={{
+            "--tomato": `url(${tomato})`,
+            "--chilli": `url(${chilli})`,
+          }}
+        >
           <div className="max-w-[1290px] w-[100%] mx-auto ">
             <div className="flex justify-between max-[1261px]:flex-col max-[1261px]:items-center ">
               <div className="flex flex-col justify-center   pt-[114px] pb-[120px] max-[1261px]:py-[20px] z-1">
@@ -156,9 +171,14 @@ const HotDelicious = () => {
       </section>
       <section>
         <div className="grid grid-cols-2 max-xl:grid-cols-1 ">
-          <div className=" relative bg-[url(./src/Images/bgimage.png)] w-[100%] h-[869px] max-[426px]:h-[540px] flex flex-col justify-center items-center p-[10px]">
+          <div
+            className=" relative bg-[image:var(--bgimage)] w-[100%] h-[869px] max-[426px]:h-[540px] flex flex-col justify-center items-center p-[10px]"
+            style={{
+              "--bgimage": `url(${bgimage})`,
+            }}
+          >
             <div className="flex flex-col items-center gap-[20px] w-fit h-fit ">
-              <div className="w-[100%] h-fit  ">
+              <div className="w-[100%] h-fit">
                 <p className="font-[Oswald] font-[700] text-[36px] text-[#FFFFFF]  text-center capitalize">
                   today
                 </p>

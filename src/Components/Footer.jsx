@@ -1,10 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import right from "../Images/right.svg";
+import footerleft from "../Images/footerleft.svg";
+import footerright from "../Images/footerright.svg";
+import footerbottom from "../Images/footerbottom.png";
 
 const Footer = () => {
   return (
-    <div className="px-[20px] pt-[120px] bg-[#F5F8FD] pb-[14.99px] relative before:opacity-[.1] before:content-[''] before:absolute before:w-[290px] before:h-[517px] before:bottom-0 before:left-[-100px] before:bg-[url(./src/Images/footerleft.svg)] after:content-[''] after:absolute after:w-[274px] after:h-[440px] after:bottom-0 after:right-[0px] after:opacity-[0.1] after:bg-[url(./src/Images/footerright.svg)] ">
+    <div
+      className="px-[20px] pt-[120px] bg-[#F5F8FD] pb-[14.99px] relative before:opacity-[.1] before:content-[''] before:absolute before:w-[290px] before:h-[517px] before:bottom-0 before:left-[-100px] before:bg-[image:var(--footerleft)] after:content-[''] after:absolute after:w-[274px] after:h-[440px] after:bottom-0 after:right-[0px] after:opacity-[0.1] after:bg-[image:var(--footerright)] "
+      style={{
+        "--footerleft": `url(${footerleft})`,
+        "--footerright": `url(${footerright})`,
+      }}
+    >
       <div className="max-w-[1290px] w-[100%] mx-auto  relative z-[1]">
         <div className="flex flex-wrap gap-[20px] justify-between">
           <div className="max-w-[390px] w-[100%] h-[364.95001220703125px] transform transition-all duration-300 hover:bg-[#bb0526f2] px-[45px] bg-[#F3274C] flex flex-col justify-around  rounded-[30px]">
@@ -159,7 +168,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex relative before:content-[''] before:absolute before:w-[62px] before:h-[29.979999542236328px] before:bottom-0 before:left-[50%] before:transform before:translate-x-[-50%] before:bg-[url(./src/Images/footerbottom.svg)]  max-[797px]:justify-center flex-wrap gap-[20px] justify-between px-[10px] py-[22px] border-t-[10px] border-[#FFD40D] mt-[100.01px]">
+        <div
+          className="flex relative before:content-[''] before:absolute before:w-[62px] before:h-[29.979999542236328px] before:bottom-0 before:left-[50%] before:transform before:translate-x-[-50%] before:bg-[image:var(--footerbottom)]  max-[797px]:justify-center flex-wrap gap-[20px] justify-between px-[10px] py-[22px] border-t-[10px] border-[#FFD40D] mt-[100.01px]"
+          style={{
+            "--footerbottom": `url(${footerbottom})`,
+          }}
+        >
           <div className="flex items-center">
             <p className="max-[321px]:text-[13px] font-[Fugaz One] font-[400] text-[16px] text-[#F3274C]">
               © 2024 pizza hut

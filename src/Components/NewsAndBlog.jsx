@@ -1,11 +1,20 @@
 import React from "react";
 import img1 from "../Images/img1.jpg";
 import bg1 from "../Images/bg1.jpg";
+import fryshape from "../Images/fry-shape.png";
+
 import bg2 from "../Images/bg2.jpg";
+import smallburger from "../Images/smallburger.svg";
 
 const NewsAndBlog = () => {
   return (
-    <div className="px-[20px]  pb-[120px] before:content-[''] before:absolute before:w-[130px] before:h-[128px] relative before:bg-[url(./src/Images/smallburger.svg)] before:left-0 before:top-[173px] before:z-[-1]  after:content-[''] after:absolute after:w-[96px] after:h-[113px]  after:bg-[url(./src/Images/fry-shape.svg)] after:right-0 after:bottom-[109px] after:z-[-1]">
+    <div
+      className="px-[20px]  pb-[120px] before:content-[''] before:absolute before:w-[130px] before:h-[128px] relative before:bg-[image:var(--smallburger)] before:left-0 before:top-[173px] before:z-[-1]  after:content-[''] after:absolute after:w-[96px] after:h-[113px]  after:bg-[image:var(--fryshape)] after:right-0 after:bottom-[109px] after:z-[-1]"
+      style={{
+        "--fryshape": `url(${fryshape})`,
+        "--smallburger": `url(${smallburger})`,
+      }}
+    >
       <div className="max-w-[1290px] w-[100%] mx-auto">
         <div>
           <p className="font-[Oswald] font-[700] text-[17px]  text-[#00A149] mb-[4.9px] text-center">

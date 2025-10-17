@@ -10,12 +10,18 @@ import frenchfry from "../Images/french-fry.svg";
 import item3 from "../Images/item3.png";
 import food from "../Images/food.svg";
 import fiftydiscount from "../Images/50.svg";
+import burger2 from "../Images/burger2.png";
 
 const DiscountMenus = () => {
   return (
     <section>
       <div className="w-full px-[20px]">
-        <div className=" pt-[120px] grid max-sm:grid-cols-1 max-xl:grid-cols-2 max-w-[1290px] mx-[auto]  gap-[32.28px]  pb-[120px] grid-cols-3 after:content-['']  after:bg-[url(./src/Images/burger2.png)] after:absolute after:w-[123px] after:h-[127px] after:right-[57.59px] after:bottom-[0px]  max-[1920px]:after:h-[100px]  max-[1920px]:after:right-[0px] relative   ">
+        <div
+          className=" pt-[120px] grid max-sm:grid-cols-1 max-xl:grid-cols-2 max-w-[1290px] mx-[auto]  gap-[32.28px]  pb-[120px] grid-cols-3 after:content-['']  after:bg-[image:var(--burger2)] after:absolute after:w-[123px] after:h-[127px] after:right-[57.59px] after:bottom-[0px]  max-[1920px]:after:h-[100px]  max-[1920px]:after:right-[0px] relative   "
+          style={{
+            "--burger2": `url(${burger2})`,
+          }}
+        >
           <div className=" h-[331.19000244140625px] rounded-[9px] relative">
             <img
               src={item1}
