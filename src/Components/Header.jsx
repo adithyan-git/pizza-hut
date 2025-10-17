@@ -95,7 +95,7 @@ const Header = () => {
         <div className="min-[1071px]:hidden block">
           {show ? (
             <img
-              src="./src/Images/menu.svg"
+              src={menu}
               alt="img"
               className="w-[31px] h-[18px]"
               onClick={() => closeMenu()}
