@@ -169,7 +169,7 @@ const Footer = () => {
           </div>
         </div>
         <div
-          className="flex relative before:content-[''] before:absolute before:z-[-1] max-[426px]:gap-0 before:w-[62px] before:h-[29.979999542236328px] before:bottom-0 before:left-[50%] before:transform before:translate-x-[-50%] before:bg-[image:var(--footerbottom)]  max-[797px]:justify-center flex-wrap gap-[20px] justify-between px-[10px] py-[22px] border-t-[10px] border-[#FFD40D] mt-[100.01px]"
+          className="flex relative before:content-[''] before:absolute before:z-[-1] max-[426px]:gap-0 before:w-[62px] before:h-[29.979999542236328px] before:bottom-0 before:left-[50%] before:transform before:translate-x-[-50%] before:bg-[image:var(--footerbottom)]  before:opacity-[0.1] max-[797px]:justify-center flex-wrap gap-[20px] justify-between px-[10px] py-[22px] border-t-[10px] border-[#FFD40D] mt-[100.01px]"
           style={{
             "--footerbottom": `url(${footerbottom})`,
           }}
