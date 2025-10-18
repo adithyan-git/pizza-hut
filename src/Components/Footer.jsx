@@ -16,7 +16,7 @@ const Footer = () => {
     >
       <div className="max-w-[1290px] w-[100%] mx-auto  relative z-[1]">
         <div className="grid grid-cols-12 gap-[47px] max-[935px]:grid-cols-2  max-[585px]:grid-cols-1">
-          <div className="max-[1025px]:px-[20px] col-span-4 max-[935px]:col-span-1  w-[100%] h-[364.95001220703125px] transform transition-all duration-300 hover:bg-[#bb0526f2] px-[45px] bg-[#F3274C] flex flex-col justify-around  rounded-[30px]">
+          <div className="max-[1025px]:px-[15px] col-span-4 max-[935px]:col-span-1  w-[100%] h-[364.95001220703125px] transform transition-all duration-300 hover:bg-[#bb0526f2] px-[45px] bg-[#F3274C] flex flex-col justify-around  rounded-[30px]">
             <div className="">
               <h6 className=" font-[Fugaz One] font-[400] text-[24px] text-[#FFFFFF]">
                 pizza hut
