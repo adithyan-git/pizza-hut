@@ -38,8 +38,8 @@ const PersonReview = () => {
                 className="w-[16.134374618530273px] h-[14px]"
               />
               <img
-                src="./src/Images/star.svg"
-                alt={star}
+                src={star}
+                alt="img"
                 className="w-[16.134374618530273px] h-[14px]"
               />
               <img
