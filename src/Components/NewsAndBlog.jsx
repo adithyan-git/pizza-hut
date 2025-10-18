@@ -17,10 +17,10 @@ const NewsAndBlog = () => {
     >
       <div className="max-w-[1290px] w-[100%] mx-auto">
         <div>
-          <p className="font-[Oswald] font-[700] text-[17px]  text-[#00A149] mb-[4.9px] text-center">
+          <p className=" font-[Oswald] font-[700] text-[17px]  text-[#00A149] mb-[4.9px] text-center">
             NEWS & BLOG
           </p>
-          <h6 className="max-[426px]:text-[30px] font-[Oswald] font-[700] text-[60px]  text-[#212121] capitalize text-center">
+          <h6 className="max-[1025px]:text-[50px] max-[769px]:text-[45px] max-[426px]:text-[30px] font-[Oswald] font-[700] text-[60px]  text-[#212121] capitalize text-center">
             update news & blog
           </h6>
         </div>
@@ -47,10 +47,10 @@ const NewsAndBlog = () => {
                   Comments (0)
                 </p>
               </div>
-              <h6 className="max-[376px]:text-[20px]  mb-[17px] mt-[17px] max-w-[351.7300109863281px] w-[100%] font-[Oswald] font-[600] text-[28px] text-[#212121] leading-[36.4px]">
+              <h6 className="max-[1025px]:text-[23px] max-[376px]:text-[20px]  mb-[17px] mt-[17px] max-w-[351.7300109863281px] w-[100%] font-[Oswald] font-[600] text-[28px] text-[#212121] leading-[36.4px]">
                 Quick Cravings: Unraveling Fast Food Delights
               </h6>
-              <p className="max-w-[343.69989013671875px] w-[100%]  font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] leading-[28px]">
+              <p className="max-[769px]:text-[15px] max-[426px]:text-[14px] max-w-[343.69989013671875px] w-[100%]  font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] leading-[28px]">
                 There are many variations of passages of Lorem Ipsum available,
                 but majority have suffered Lorem haca ullamcorper donec ante
                 habi believable. If you are going to use a passage...
@@ -79,10 +79,10 @@ const NewsAndBlog = () => {
                   Comments (0)
                 </p>
               </div>
-              <h6 className="max-[376px]:text-[20px] mb-[17px] mt-[17px] max-w-[351.7300109863281px] w-[100%] font-[Oswald] font-[600] text-[28px] text-[#212121] leading-[36.4px]">
+              <h6 className="max-[1025px]:text-[23px] max-[376px]:text-[20px] mb-[17px] mt-[17px] max-w-[351.7300109863281px] w-[100%] font-[Oswald] font-[600] text-[28px] text-[#212121] leading-[36.4px]">
                 Veggie Vibes: Garden Fresh Delightful Creations
               </h6>
-              <p className="max-w-[343.69989013671875px] w-[100%]  font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] leading-[28px]">
+              <p className="max-[769px]:text-[15px] max-[426px]:text-[14px] max-w-[343.69989013671875px] w-[100%]  font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] leading-[28px]">
                 There are many variations of passages of Lorem Ipsum available,
                 but majority have suffered Lorem haca ullamcorper donec ante
                 habi believable. If you are going to use a passage...
@@ -111,10 +111,10 @@ const NewsAndBlog = () => {
                   Comments (0)
                 </p>
               </div>
-              <h6 className="max-[376px]:text-[20px]  mb-[17px] mt-[17px] max-w-[351.7300109863281px] w-[100%] font-[Oswald] font-[600] text-[28px] text-[#212121] leading-[36.4px]">
+              <h6 className="max-[1025px]:text-[23px] max-[376px]:text-[20px]  mb-[17px] mt-[17px] max-w-[351.7300109863281px] w-[100%] font-[Oswald] font-[600] text-[28px] text-[#212121] leading-[36.4px]">
                 Bold Bite: Exotic Flavors, Global Adventure
               </h6>
-              <p className="max-w-[343.69989013671875px] w-[100%]  font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] leading-[28px]">
+              <p className="max-[769px]:text-[15px] max-[426px]:text-[14px] max-w-[343.69989013671875px] w-[100%]  font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] leading-[28px]">
                 There are many variations of passages of Lorem Ipsum available,
                 but majority have suffered Lorem haca ullamcorper donec ante
                 habi believable. If you are going to use a passage...

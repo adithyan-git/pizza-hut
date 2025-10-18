@@ -56,7 +56,7 @@ const HotDelicious = () => {
   return (
     <>
       <section>
-        <div className="pt-[120px]">
+        <div className="">
           <div className=" w-full px-[20px]">
             <div
               className="bg-[image:var(--hotdelicious)] max-w-[1290px] mx-auto  w-[100%] h-fit pt-[114px] px-[53px] pb-[119.99px] bg-[url('./src/Images/bg.png)] max-[426px]:px-[10px]"
@@ -68,22 +68,22 @@ const HotDelicious = () => {
                 <p className="font-[Oswald] font-[700] text-[17px]  mb-[4.9px] text-[#00A149]">
                   About Our Food
                 </p>
-                <h6 className="font-[Oswald] font-[700] text-[60px] text-[#212121] capitalize text-center max-[426px]:text-[35px]">
+                <h6 className="max-[1025px]:text-[50px] max-[769px]:text-[45px] font-[Oswald] font-[700] text-[60px] text-[#212121] capitalize text-center max-[426px]:text-[35px]">
                   hot delicious item
                 </h6>
               </div>
               <div className="flex justify-center mt-[30.09px]">
                 <div className="w-fit flex gap-[20px] flex-wrap justify-center">
-                  <div className="w-fit h-fit py-[13px] px-[36px]  rounded-[40px] bg-[#FFC222] flex justify-center items-center font-[Oswald] font-[500]  text-[18px] text-[#212121] capitalize cursor-pointer">
+                  <div className="max-[1025px]:text-[16px] max-[769px]:text-[15px] w-fit h-fit py-[13px] px-[36px]  rounded-[40px] bg-[#FFC222] flex justify-center items-center font-[Oswald] font-[500]  text-[18px] text-[#212121] capitalize cursor-pointer">
                     chicken fry
                   </div>
-                  <div className="w-fit h-fit py-[13px] px-[36px] rounded-[40px] bg-[#D9D9D9] flex justify-center items-center font-[Oswald] font-[500]  text-[18px] text-[#212121] capitalize border-[1px] border-[#c2c2c2] cursor-pointer">
+                  <div className="max-[1025px]:text-[16px] max-[769px]:text-[15px] w-fit h-fit py-[13px] px-[36px] rounded-[40px] bg-[#D9D9D9] flex justify-center items-center font-[Oswald] font-[500]  text-[18px] text-[#212121] capitalize border-[1px] border-[#c2c2c2] cursor-pointer">
                     pizza
                   </div>
-                  <div className="w-fit h-fit py-[13px] px-[36px]  rounded-[40px] bg-[#D9D9D9] flex justify-center items-center font-[Oswald] font-[500]  text-[18px] text-[#212121] capitalize border-[1px] border-[#c2c2c2] cursor-pointer">
+                  <div className="max-[1025px]:text-[16px] max-[769px]:text-[15px] w-fit h-fit py-[13px] px-[36px]  rounded-[40px] bg-[#D9D9D9] flex justify-center items-center font-[Oswald] font-[500]  text-[18px] text-[#212121] capitalize border-[1px] border-[#c2c2c2] cursor-pointer">
                     burger
                   </div>
-                  <div className="w-fit h-fit py-[13px] px-[36px] rounded-[40px] bg-[#D9D9D9] flex justify-center items-center font-[Oswald] font-[500]  text-[18px] text-[#212121] capitalize border-[1px] border-[#c2c2c2] cursor-pointer">
+                  <div className="max-[1025px]:text-[16px] max-[769px]:text-[15px] w-fit h-fit py-[13px] px-[36px] rounded-[40px] bg-[#D9D9D9] flex justify-center items-center font-[Oswald] font-[500]  text-[18px] text-[#212121] capitalize border-[1px] border-[#c2c2c2] cursor-pointer">
                     deserts
                   </div>
                 </div>
@@ -104,10 +104,10 @@ const HotDelicious = () => {
                     </div>
 
                     <div className="flex flex-col items-center">
-                      <p className="font-[Oswald] font-[700] text-[26px] text-[#212121] capitalize mb-[2.29px] text-center">
+                      <p className="max-[1025px]:text-[24px] max-[769px]:text-[22px] font-[Oswald] font-[700] text-[26px] text-[#212121] capitalize mb-[2.29px] text-center">
                         {item.title}
                       </p>
-                      <p className="w-[241.34463500976562px] font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] text-center">
+                      <p className="max-[1025px]:text-[16px] max-[769px]:text-[15px] w-[241.34463500976562px] font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] text-center">
                         {item.description}
                       </p>
                     </div>
@@ -119,18 +119,12 @@ const HotDelicious = () => {
         </div>
       </section>
       <section>
-        <div>
-          <div>
-            <div>
-              <div>
-                <img
-                  src={Background}
-                  alt=""
-                  className="w-full h-[390px] max-[426px]:h-[300px]"
-                />
-              </div>
-            </div>
-          </div>
+        <div className="overflow-hidden">
+          <img
+            src={Background}
+            alt="img"
+            className="w-full h-[390px] max-[426px]:h-[300px] object-cover "
+          />
         </div>
       </section>
       <section>
@@ -144,10 +138,10 @@ const HotDelicious = () => {
           <div className="max-w-[1290px] w-[100%] mx-auto ">
             <div className="flex justify-between max-[1261px]:flex-col max-[1261px]:items-center ">
               <div className="flex flex-col justify-center   pt-[114px] pb-[120px] max-[1261px]:py-[20px] z-1">
-                <p className="font-[Oswald] font-[700] text-[17px] text-[#FFC222] max-[805px]:text-center">
+                <p className="max-[1025px]:text-center font-[Oswald] font-[700] text-[17px] text-[#FFC222] max-[805px]:text-center">
                   Crispy, Every Bite Taste
                 </p>
-                <h2 className="w-[456.0799865722656px] font-[Oswald] font-[700] text-[60px] text-[#FFFFFF] max-[805px]:w-[100%] max-[805px]:text-center max-[562px]:text-[30px] max-[426px]:text-[25px]">
+                <h2 className="max-[1025px]:text-[50px] max-[1025px]:text-center max-[769px]:text-[45px] w-[456.0799865722656px] font-[Oswald] font-[700] text-[60px] text-[#FFFFFF] max-[805px]:w-[100%] max-[805px]:text-center max-[562px]:text-[30px] max-[426px]:text-[25px]">
                   30 Minutes Fast{" "}
                   <span className="text-[#FFC222]">Delivery</span> Challenge
                 </h2>
@@ -172,21 +166,21 @@ const HotDelicious = () => {
       <section>
         <div className="grid grid-cols-2 max-xl:grid-cols-1 ">
           <div
-            className=" relative bg-[image:var(--bgimage)] w-[100%] h-[869px] max-[426px]:h-[540px] flex flex-col justify-center items-center p-[10px]"
+            className=" relative bg-[image:var(--bgimage)] w-[100%] h-[869px] max-[426px]:h-fit flex flex-col justify-center items-center p-[10px]"
             style={{
               "--bgimage": `url(${bgimage})`,
             }}
           >
             <div className="flex flex-col items-center gap-[20px] w-fit h-fit ">
               <div className="w-[100%] h-fit">
-                <p className="font-[Oswald] font-[700] text-[36px] text-[#FFFFFF]  text-center capitalize">
+                <p className="font-[Oswald]  max-[426px]:text-[30px] font-[700] text-[36px] text-[#FFFFFF]  text-center capitalize">
                   today
                 </p>
                 <div className="relative">
-                  <p className="font-[Oswald] font-[700] max-[426px]:text-[40px] text-[60px] text-[#FFFFFF]  text-center capitalize">
+                  <p className="max-[1025px]:text-[50px]  max-[769px]:text-[45px] max-[426px]:text-[30px] font-[Oswald] font-[700]  text-[60px] text-[#FFFFFF]  text-center capitalize">
                     special delicious
                   </p>
-                  <p className="font-[Oswald] font-[600] text-[40px] max-[426px]:top-[27px]  text-[#FFFFFF]  text-center capitalize absolute top-[50px] left-[50%] transform translate-x-[-50%] w-[100%]">
+                  <p className="max-[1025px]:top-[38px]   max-[769px]:top-[30px] max-[769px]:text-[35px] max-[426px]:text-[30px] font-[Oswald] font-[600] text-[40px]  max-[426px]:top-[20px]  text-[#FFFFFF]  text-center capitalize absolute top-[50px] left-[50%] transform translate-x-[-50%] w-[100%]">
                     beef<span className="text-[#FFC222]">chiness pizza</span>
                   </p>
                 </div>
@@ -205,29 +199,29 @@ const HotDelicious = () => {
             <img
               src={lefttomato}
               alt="img"
-              className="absolute w-[67px] h-[224px]  left-0 top-[235.59px] "
+              className="absolute w-[67px] h-[224px] max-[426px]:top-[106.59px]  left-0 top-[235.59px] "
             />
           </div>
           <div className=" grid grid-cols-2 max-sm:grid-cols-1">
             <div className="relative ">
               <img src={bg1} alt="img" className="h-[434.5px] w-[100%]" />
               <div className="absolute top-[60px] w-fit h-fit left-[45px] max-[426px]:top-[20px] max-[426px]:left-[20px]">
-                <p className="font-[Oswald] font-[500] text-[26px] text-[#FFC222]">
+                <p className="max-[769px]:text-[24px] max-[426px]:text-[22px] font-[Oswald] font-[500] text-[26px] text-[#FFC222]">
                   Delicious
                 </p>
-                <p className="text-[#FFFFFF] font-[Oswald] text-[40px] font-[700] ">
+                <p className="text-[#FFFFFF] font-[Oswald] max-[769px]:text-[32px] max-[426px]:text-[30px]  text-[40px] font-[700] ">
                   burger combo
                 </p>
-                <p className="font-[Oswald] font-[600] text-[18px] text-[#FFFFFF]">
+                <p className="font-[Oswald] font-[600] max-[426px]:text-[16px]  text-[18px] text-[#FFFFFF]">
                   This Weekend only
                 </p>
-                <p className="font-[Oswald] font-[600] text-[20px] text-[#FFFFFF]">
+                <p className="font-[Oswald] font-[600] max-[426px]:text-[18px]  text-[20px] text-[#FFFFFF]">
                   limited offer /{" "}
                   <span className="font-[Oswald] font-[700] text-[44px] text-[#FFFFFF]">
                     $5
                   </span>
                 </p>
-                <Link className="bg-[#FFC222] hover:bg-[#ffb700d7] transform transition-all duration-700 w-[223.77999877929688px] h-fit flex rounded-[9px] justify-center p-[24px] gap-[10px] mt-[21.32px]">
+                <Link className="bg-[#FFC222] hover:bg-[#ffb700d7] transform transition-all duration-700 h-fit flex rounded-[9px] justify-center p-[24px] gap-[10px] mt-[21.32px]">
                   <img
                     src={icon2}
                     alt="img"
@@ -246,10 +240,10 @@ const HotDelicious = () => {
                 className=" h-[434.5px] object-cover w-[100%]"
               />
               <div className="w-[229.63999938964844px] absolute  left-[45px] top-[59.3px] max-[426px]:top-[20px] max-[426px]:left-[20px]">
-                <p className="font-[Oswald] font-[600] text-[18px] text-[#FFC222]">
+                <p className="max-[769px]:text-[16px] font-[Oswald] font-[600] max-[426px]:text-[15px]  text-[18px] text-[#FFC222]">
                   crispy, every bite taste
                 </p>
-                <p className="font-[Oswald] font-[700] text-[53px] text-[#FFFFFF]">
+                <p className="max-[769px]:text-[50px] font-[Oswald] max-[426px]:text-[45px]  font-[700] text-[53px] text-[#FFFFFF]">
                   SUPER DELICIOUS
                 </p>
               </div>
@@ -262,22 +256,22 @@ const HotDelicious = () => {
             <div className="relative">
               <img src={bg4} alt="img" className="h-[434.5px] w-[100%]" />
               <div className="absolute top-[59.3px] left-[45px] z-[1] max-[426px]:top-[20px] max-[426px]:left-[20px]">
-                <p className="font-[Oswald] font-[600] text-[18px] text-[#FFFFFF]">
+                <p className="max-[769px]:text-[16px] font-[Oswald] font-[600] max-[426px]:text-[16px]  text-[18px] text-[#FFFFFF]">
                   crispy, every bite taste
                 </p>
-                <h6 className="max-w-[239.55999755859375px] w-[100%] font-[Oswald] font-[700] text-[53px] text-[#FFFFFF]">
+                <h6 className="max-[769px]:text-[48px] max-[426px]:text-[40px]  max-w-[239.55999755859375px] w-[100%] font-[Oswald] font-[700] text-[53px] text-[#FFFFFF]">
                   FASH FOOD MEAL
                 </h6>
-                <p className="font-[Oswald] font-[700] text-[16px] text-[#FFFFFF] max-w-[193.65753173828125px] w-[100%]">
+                <p className=" max-[426px]:text-[14px]  font-[Oswald] font-[700] text-[16px] text-[#FFFFFF] max-w-[193.65753173828125px] w-[100%]">
                   The mouth-watering aroma of sizzling burgers
                 </p>
-                <Link className="w-[193.65753173828125px] h-fit flex bg-[#FFC222] hover:bg-[#ffb700d7] transform transition-all duration-700   rounded-[9px] justify-center gap-[10px] p-[25.7px]  mt-[5.7px]">
+                <Link className="w-fit h-fit flex bg-[#FFC222] hover:bg-[#ffb700d7] transform transition-all duration-700   rounded-[9px] justify-center gap-[10px] p-[25.7px]  mt-[5.7px]">
                   <img
                     src={icon2}
                     alt="img"
                     className="w-[24.809999465942383px] h-[24px] "
                   />
-                  <p className="capitalize text-[17px] text-[#212121] font-[700] font-[Oswald] ">
+                  <p className="max-[769px]:text-[16px] capitalize text-[17px] text-[#212121] font-[700] font-[Oswald] ">
                     order now
                   </p>
                 </Link>

@@ -5,17 +5,17 @@ import bgimg from "../Images/bgimg.jpg";
 
 const AboutOurFood = () => {
   return (
-    <div className="pt-[120px] pl-[20px] max-lg:pr-[20px] pb-[120px]">
-      <div className="max-w-[1400px] w-[100%] grid grid-cols-12 max-lg:grid-cols-2  mx-auto gap-[20px] max-lg:gap-[0px]  ">
+    <div className="pt-[120px] pl-[20px] max-lg:pr-[20px] pb-[120px] px-[20px]">
+      <div className="max-w-[1290px] w-[100%] grid grid-cols-12 max-lg:grid-cols-2  mx-auto  ">
         <div className="col-span-7 max-lg:cols-span-12">
           <p className="font-[Oswald] font-[700] text-[17px] text-[#F3274C] mb-[4.89px] max-lg:text-center capitalize">
             about our food
           </p>
-          <h6 className="max-w-[476.70184326171875px] max-[500px]:text-[30px] max-lg:max-w-[100%] w-[100%] font-[Oswald] font-[700] text-[60px] text-[#212121] max-lg:text-center">
+          <h6 className="max-[1025px]:text-[50px]  max-[769px]:text-[45px] max-w-[476.70184326171875px] max-[500px]:text-[30px] max-lg:max-w-[100%] w-[100%] font-[Oswald] font-[700] text-[60px] text-[#212121] max-lg:text-center">
             Where Quality Meet Excellent{" "}
             <span className="text-[#F3274C]"> Service.</span>
           </h6>
-          <p className="max-lg:text-center max-w-[629.4446411132812px] max-lg:max-w-[100%]  font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] mt-[29.49px]">
+          <p className="max-[1025px]:text-[16px]  max-[769px]:text-[15px] max-[426px]:text-[14px] max-lg:text-center max-w-[629.4446411132812px] max-lg:max-w-[100%]  font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] mt-[29.49px]">
             Its the perfect dining experience where every dish is crafted with
             fresh, high-quality Experience quick and efficient service that
             ensures your food is servead fresh Its the dining experience where
@@ -34,7 +34,7 @@ const AboutOurFood = () => {
                 <h6 className=" font-[Oswald] font-[600] text-[20px] text-[#212121] capitalize">
                   super quality food
                 </h6>
-                <p className="max-w-[238.1080322265625px] w-[100%] font-[Oswald] font-[400] text-[17px] text-[#212121]">
+                <p className="max-[1025px]:text-[16px] max-[426px]:text-[14px] max-w-[238.1080322265625px] w-[100%] font-[Oswald] font-[400] text-[17px] text-[#212121]">
                   A team of dreamers and doers building unique interactive music
                   and art
                 </p>
@@ -52,7 +52,7 @@ const AboutOurFood = () => {
                 <h6 className=" font-[Oswald] font-[600] text-[20px] text-[#212121] capitalize">
                   well reputation
                 </h6>
-                <p className=" max-w-[238.1080322265625px] w-[100%] font-[Oswald] font-[400] text-[17px] text-[#212121]">
+                <p className="max-[1025px]:text-[16px]  max-[426px]:text-[14px] max-w-[238.1080322265625px] w-[100%] font-[Oswald] font-[400] text-[17px] text-[#212121]">
                   A team of dreamers and doers building unique interactive music
                   and art
                 </p>
@@ -61,7 +61,7 @@ const AboutOurFood = () => {
           </div>
           <div className="flex gap-[22px] mt-[52.5px] items-center max-lg:justify-center">
             <div className="">
-              <Link className="max-[500px]:w-[123px] flex bg-[#F3274C] hover:bg-[#f74e6d] transform transition-all duration-300 rounded-[9px] items-center  justify-center w-[209.33999633789062px] h-[65.5px] text-[17px] text-[#FFFFFF] font-[Oswald] font-[600px] ">
+              <Link className="max-[426px]:text-[13px] max-[426px]:h-[50px] max-[426px]:w-[100px] max-[500px]:w-[123px] flex bg-[#F3274C] hover:bg-[#f74e6d] transform transition-all duration-300 rounded-[9px] items-center  justify-center w-[209.33999633789062px] h-[65.5px] text-[17px] text-[#FFFFFF] font-[Oswald] font-[600px] ">
                 More About Us
               </Link>
             </div>
@@ -69,13 +69,13 @@ const AboutOurFood = () => {
               <h6 className="font-[Oswald] font-[600] text-[16px] text-[#FFC222]">
                 BRENDON GARREY
               </h6>
-              <p className="max-[500px]:text-[13px] font-[Oswald] font-[700] text-[16px] text-[#212121] ">
+              <p className="max-[769px]:text-[15px] max-[500px]:text-[13px] font-[Oswald] font-[700] text-[16px] text-[#212121] ">
                 CUSTOMER’S EXPERIENCE IS OUR HIGHEST PRIORITY.
               </p>
             </div>
           </div>
         </div>
-        <div className="col-span-5 max-lg:cols-span-12  max-lg:mr-[0px] max-lg:pt-[20px]">
+        <div className="col-span-5 max-lg:cols-span-12  max-lg:pt-[20px]">
           <img src={bgimg} alt="img" className="h-[100%] w-[100%]" />
         </div>
       </div>

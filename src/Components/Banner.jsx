@@ -8,29 +8,29 @@ import bannerdiscount from "../Images/bannerdiscount.svg";
 const Banner = () => {
   return (
     <section>
-      <div className="relative w-[100%]">
-        <img
-          src={banner}
-          alt="img"
-          className="w-[100%] h-[833px] max-[1006px]:h-[600px] max-[425px]:h-[500px]"
-        />
-        <div className="flex absolute top-0 w-[100%] max-[1266px]:flex-col">
-          <div className="first w-[50%] h-[100%] max-[1266px]:w-[100%]">
-            <div className="min-[1920px]:pt-[182px] min-[1920px]:pl-[209px] pt-[100px] pl-[100px] max-[768px]:pt-[40px] max-[768px]:pl-[40px] max-[425px]:pr-[10px]">
+      <div
+        className="relative px-[20px] py-[30px]   w-[100%] h-[fit] overflow-hidden bg-[image:var(--banner)] bg-cover"
+        style={{
+          "--banner": `url(${banner})`,
+        }}
+      >
+        <div className="grid h-fit gap-[20px] py-[30px] grid-cols-2 max-[992px]:grid-cols-1  max-w-[1350px] mx-auto w-[100%] max-[1266px]:flex-col">
+          <div className=" max-[1266px]:w-[100%]">
+            <div className=" flex flex-col justify-around gap-[20px]">
               <p className="font-[Roboto] font-[400] text-[16px] text-[#FFFFFF]">
                 Starting at $24.00
               </p>
-              <h2 className="font-[900] font-[Roboto] text-[80px] text-[#FFFFFF] w-[710px] max-[1266px]:w-[100%] max-[1006px]:text-[40px] max-[425px]:text-[30px]">
+              <h2 className=" max-[1025px]:text-[50px] max-[1025px]:leading-[50px] max-[1006px]:leading-[50px] max-[1245px]:text-[60px] font-[900] leading-[80px] font-[Roboto] text-[80px] text-[#FFFFFF] w-[710px] max-[1266px]:w-[100%] max-[1006px]:text-[40px] max-[425px]:text-[30px]">
                 The best Food Collection 2024
               </h2>
               <p className="font-[400] font-[Oregano] text-[28px] text-[#FFFFFF] relative w-fit">
-                Exclusive offer{" "}
+                Exclusive offer
                 <span className="text-[#FFD43A] after:content-[''] after:w-[94px] after:h-[20px] after:bg-[url(./src/Images/SVG.svg)] after:absolute after:bottom-[-24px] after:left-[50%] after:transform after:-translate-[50%]">
                   -35%
                 </span>{" "}
                 off this week
               </p>
-              <Link className="font-[Oswald] font-[600] text-[17px] text-[#FFFFFF] flex w-[212.3000030517578px] h-[65px] bg-[#EF294C] rounded-[9px] justify-center items-center gap-[10px] hover:bg-[#fd0331a7] transition-all duration-300 mt-[75.68px] mb-[76px] max-[1266px]:my-[20px] max-[1006px]:w-[150px] max-[549px]:text-[12px] max-[549px]:w-fit max-[549px]:h-fit max-[549px]:p-[10px]">
+              <Link className="font-[Oswald]  font-[600] text-[17px] text-[#FFFFFF] flex w-[212.3000030517578px] h-[65px] bg-[#EF294C] rounded-[9px] justify-center items-center gap-[10px] hover:bg-[#fd0331a7] transition-all duration-300  max-[1266px]:my-[20px] max-[1006px]:w-[150px] max-[549px]:text-[12px] max-[549px]:w-fit max-[549px]:h-fit max-[549px]:p-[10px]">
                 <img src={icon} alt="img" />
                 order now
               </Link>
@@ -54,11 +54,11 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="second w-[50%] pt-[292px] pr-[75px] min-[1920px]:pr-[150px] max-[1266px]:w-[100%] max-[1266px]:pt-[15px] max-[1266px]:pr-[15px] max-[1266px]:flex max-[1266px]:justify-end">
+          <div className="  relative max-[1266px]:w-[100%]   max-[1266px]:flex max-[1266px]:justify-end">
             <img
               src={bannerdiscount}
               alt="img"
-              className=" max-w-[769px] w-[100%] max-[1006px]:w-[400px] max-[425px]:w-[200px]"
+              className=" w-[100%] max-[992px]:w-[400px] "
             />
           </div>
         </div>

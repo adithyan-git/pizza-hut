@@ -8,7 +8,7 @@ const TrendingFoodMenu = () => {
           <p className="font-[Oswald] font-[700] text-[17px] text-[#00A149] leading-[28px] capitalize text-center">
             about our food
           </p>
-          <h6 className="font-[Oswald] font-[700] text-[60px] text-[#212121] text-center capitalize max-[527px]:text-[40px]">
+          <h6 className="max-[1025px]:text-[50px]  max-[769px]:text-[45px] font-[Oswald] font-[700] max-[426px]:text-[30px]  text-[60px] text-[#212121] text-center capitalize max-[527px]:text-[40px]">
             trending food menu
           </h6>
         </div>
@@ -16,7 +16,7 @@ const TrendingFoodMenu = () => {
           <div className="first-div flex flex-col items-center">
             <div className="flex items-center gap-[23.13px] w-fit max-[426px]:p-[15px]  max-[426px]:px-[0px]  pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px] border-b-[2px] border-dotted border-[#5C5C5B]">
               <div>
-                <h6 className="text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
+                <h6 className="text-[#212121] max-[426px]:text-[15px]  text-[20px] font-[Oswald] font-[600] capitalize">
                   CHICAGO DEEP PIZZA
                 </h6>
                 <p className="font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%] max-[426px]:text-[13px]">
@@ -25,14 +25,14 @@ const TrendingFoodMenu = () => {
                 </p>
               </div>
               <div>
-                <p className="font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
+                <p className="max-[426px]:text-[18px] font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
                   $22.00
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-[23.13px] w-fit  max-[426px]:p-[15px] max-[426px]:px-[0px]  pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px] border-b-[2px] border-dotted  border-[#5C5C5B]">
               <div>
-                <h6 className="text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
+                <h6 className="max-[426px]:text-[15px]  text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
                   Chicago Burger King.
                 </h6>
                 <p className="font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%] max-[426px]:text-[13px]">
@@ -41,14 +41,14 @@ const TrendingFoodMenu = () => {
                 </p>
               </div>
               <div>
-                <p className="font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
+                <p className="max-[426px]:text-[18px] font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
                   $26.00
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-[23.13px] w-fit  max-[426px]:p-[15px] max-[426px]:px-[0px]  pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px] border-b-[2px] border-dotted  border-[#5C5C5B]">
               <div>
-                <h6 className="text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
+                <h6 className="text-[#212121] max-[426px]:text-[15px]  text-[20px] font-[Oswald] font-[600] capitalize">
                   Chicago French Fries.
                 </h6>
                 <p className="font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%] max-[426px]:text-[13px]">
@@ -57,14 +57,14 @@ const TrendingFoodMenu = () => {
                 </p>
               </div>
               <div>
-                <p className="font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
+                <p className="max-[426px]:text-[18px] font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
                   $28.00
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-[23.13px] border-b-[2px] border-dotted border-[#5C5C5B]   w-fit  max-[426px]:p-[15px] max-[426px]:px-[0px]  pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px]">
               <div>
-                <h6 className="text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
+                <h6 className="text-[#212121] max-[426px]:text-[15px]  text-[20px] font-[Oswald] font-[600] capitalize">
                   Chicago beef jerky.
                 </h6>
                 <p className="font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%] max-[426px]:text-[13px]">
@@ -73,7 +73,7 @@ const TrendingFoodMenu = () => {
                 </p>
               </div>
               <div>
-                <p className="font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
+                <p className="max-[426px]:text-[18px] font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
                   $39.00
                 </p>
               </div>
@@ -82,64 +82,64 @@ const TrendingFoodMenu = () => {
           <div className="flex flex-col items-center">
             <div className="flex items-center gap-[23.13px] w-fit  max-[426px]:p-[15px] max-[426px]:px-[0px]   pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px] border-b-[2px] border-dotted border-[#5C5C5B]">
               <div>
-                <h6 className="text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
+                <h6 className="text-[#212121] max-[426px]:text-[15px]  text-[20px] font-[Oswald] font-[600] capitalize">
                   CHICAGO DEEP PIZZA
                 </h6>
-                <p className="font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%] max-[426px]:text-[13px]">
+                <p className="font-[Oswald] font-[400]  text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%] max-[426px]:text-[13px]">
                   Its the perfect dining experience where Experience quick and
                   efficient
                 </p>
               </div>
               <div>
-                <p className="font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
+                <p className="max-[426px]:text-[18px] font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
                   $22.00
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-[23.13px] w-fit  max-[426px]:p-[15px] max-[426px]:px-[0px]  pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px] border-b-[2px] border-dotted  border-[#5C5C5B]">
+            <div className="flex max-[426px]:text-[15px]  items-center gap-[23.13px] w-fit  max-[426px]:p-[15px] max-[426px]:px-[0px]  pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px] border-b-[2px] border-dotted  border-[#5C5C5B]">
               <div>
-                <h6 className="text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
+                <h6 className="text-[#212121] max-[426px]:text-[15px]  text-[20px] font-[Oswald] font-[600] capitalize">
                   Chicago Burger King.
                 </h6>
-                <p className="font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%]">
+                <p className="font-[Oswald] font-[400] text-[17px] max-[426px]:text-[13px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%]">
                   Its the perfect dining experience where Experience quick and
                   efficient
                 </p>
               </div>
               <div>
-                <p className="font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
+                <p className="max-[426px]:text-[18px] font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
                   $26.00
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-[23.13px] w-fit  max-[426px]:p-[15px] max-[426px]:px-[0px]  pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px] border-b-[2px] border-dotted  border-[#5C5C5B]">
               <div>
-                <h6 className="text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
+                <h6 className="text-[#212121] max-[426px]:text-[15px]  text-[20px] font-[Oswald] font-[600] capitalize">
                   Chicago French Fries.
                 </h6>
-                <p className="font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%]">
+                <p className="font-[Oswald] font-[400] text-[17px] max-[426px]:text-[13px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%]">
                   Its the perfect dining experience where Experience quick and
                   efficient
                 </p>
               </div>
               <div>
-                <p className="font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
+                <p className="max-[426px]:text-[18px] font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
                   $28.00
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-[23.13px] w-fit  max-[426px]:p-[15px] max-[426px]:px-[0px]  pb-[43px] pl-[25px] pt-[25px]  pr-[48.59px] border-b-[2px] border-dotted border-[#5C5C5B]">
               <div>
-                <h6 className="text-[#212121] text-[20px] font-[Oswald] font-[600] capitalize">
+                <h6 className="text-[#212121] max-[426px]:text-[15px]  text-[20px] font-[Oswald] font-[600] capitalize">
                   Chicago beef jerky.
                 </h6>
-                <p className="font-[Oswald] font-[400] text-[17px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%]">
+                <p className="font-[Oswald] font-[400] text-[17px] max-[426px]:text-[13px] text-[#5C5C5B] max-w-[429.0274353027344px] w-[100%]">
                   Its the perfect dining experience where Experience quick and
                   efficient
                 </p>
               </div>
               <div>
-                <p className="font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
+                <p className="max-[426px]:text-[18px] font-[Oswald] font-[500] text-[22px] text-[#FFC222]">
                   $39.00
                 </p>
               </div>

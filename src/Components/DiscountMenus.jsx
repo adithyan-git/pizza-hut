@@ -29,10 +29,10 @@ const DiscountMenus = () => {
               className="w-[100%] h-[331.19000244140625px] rounded-[9px] "
             />
             <div className="w-[173.67999267578125px] h-[98.80000305175781px] absolute left-[35px] top-[49.3px]  max-[376px]:left-[20px]">
-              <p className="font-[Oswald] font-[700] text-[18px] text-[#FFC222]">
+              <p className="font-[Oswald] font-[700] text-[18px] max-[426px]:text-[13px]  text-[#FFC222]">
                 crispy, every bite taste
               </p>
-              <h6 className="font-[Oswald] font-[700] text-[38px] text-[#FFFFFF]">
+              <h6 className="font-[Oswald] font-[700] text-[38px]  max-[426px]:text-[22px]  text-[#FFFFFF]">
                 Delicious & hot pizza
               </h6>
               <div className="mt-[5px]">
@@ -72,19 +72,21 @@ const DiscountMenus = () => {
                   Delicious
                 </span>
               </p>
-              <h6 className="font-[Oswald] font-[700] text-[40px] text-[#FFFFFF] mt-[10px]">
+              <h6 className="font-[Oswald] font-[700]  max-[426px]:text-[32px]  text-[40px] text-[#FFFFFF] mt-[10px]">
                 french fry
               </h6>
               <p className="font-[Oswald] font-[700] text-[18px] text-[#FFFFFF] mt-[10px]">
                 This Weekend only
               </p>
-              <Link className="bg-[#FFC222] w-[200.38999938964844px] h-fit flex rounded-[9px] justify-center p-[20px] gap-[10px] mt-[10px] hover:bg-[#ffb700]">
+              <Link className=" max-[426px]:w-fit bg-[#FFC222] h-fit flex rounded-[9px] justify-center p-[20px] gap-[10px] mt-[10px] hover:bg-[#ffb700]">
                 <img
                   src={icon2}
                   alt="img"
                   className="w-[24.809999465942383px] h-[24px]"
                 />
-                <p>order now</p>
+                <p className=" font-[Oswald] font-[500] text-[17px]  text-[#FFFFFF] max-[426px]:text-[13px] ">
+                  order now
+                </p>
               </Link>
             </div>
             <img
@@ -100,10 +102,10 @@ const DiscountMenus = () => {
               className="w-[100%] h-[331.19000244140625px] rounded-[9px] object-cover"
             />
             <div className="absolute top-[49.3px] left-[35px] z-1  max-[376px]:left-[20px]">
-              <p className="font-[Oswald] font-[700] text-[18px] text-[#FFC222] mb-[4.99px]">
+              <p className="font-[Oswald] font-[700]  max-[426px]:text-[13px] text-[18px] text-[#FFC222] mb-[4.99px]">
                 crispy, every bite taste
               </p>
-              <h6 className="w-[163.25999450683594px] font-[Oswald] font-[700] text-[38px] text-[#FFFFFF] leading-[49.4px] ">
+              <h6 className="w-[163.25999450683594px]  max-[426px]:text-[32px] font-[Oswald] font-[700] text-[38px] text-[#FFFFFF] leading-[49.4px] ">
                 chiken & french fry
               </h6>
               <div className="mt-[5px]">
