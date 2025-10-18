@@ -84,7 +84,7 @@ const DiscountMenus = () => {
                   alt="img"
                   className="w-[24.809999465942383px] h-[24px]"
                 />
-                <p className=" font-[Oswald] font-[500] text-[17px]  text-[#FFFFFF] max-[426px]:text-[13px] ">
+                <p className=" font-[Oswald] font-[500] text-[17px]  text-black max-[426px]:text-[13px] ">
                   order now
                 </p>
               </Link>
