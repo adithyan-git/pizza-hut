@@ -10,7 +10,7 @@ const BestDeliciousFood = () => {
     <div className=" px-[20px]">
       <div className=" justify-between grid grid-cols-12 max-lg:grid-cols-2 max-lg:gap-[0px] max-w-[1290px] gap-[74px] w-[100%] mx-auto ">
         <div
-          className="col-span-5 max-lg:col-span-12 relative after:content-[' '] relative after:absolute after:w-[188px] after:h-[540px] after:top-[-100px] after:left-[0px] after:bg-[image:var(--leaves)] after:z-[-1] max-[437px]:after:h-[340px]"
+          className="col-span-5 max-lg:col-span-12 relative after:content-[' '] relative after:absolute after:w-[188px] after:h-[540px] after:top-[-100px] after:left-[0px] after:bg-[image:var(--leaves)] after:z-[-1] max-[437px]:after:h-[300px]"
           style={{
             "--leaves": `url(${leaves})`,
           }}
